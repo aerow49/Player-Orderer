@@ -1,0 +1,28 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>Next Determine</title>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <div class="col" id="sign">
+            <h2>Player Sign In</h2>
+            <input id="n" type="text" autofocus=true placeholder="Name">
+            <button onclick="addPlayer()">Submit</button>
+        </div>
+        <div class="col" id="remove">
+            <h2>Remove Players</h2>
+            <hr/>
+            <table id="p" align="center" style="background:rgba(100,100,100,.7);color:lightgray;width:100%">
+            </table>
+        </div>
+        <div class="col" id="next">
+            <h2>Up Next</h2>
+            <button onclick="next()">Next Players</button>
+            <h3 id="1"></h3>
+            <h3 id="2"></h3>
+            <h3 id="3"></h3>
+            <h3 id="4"></h3>
+        </div>
+    </body>
+</html>
