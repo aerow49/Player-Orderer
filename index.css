@@ -1,43 +1,48 @@
-*{
+* {
     box-sizing: border-box;
+    font-family: Arial Black;
 }
 
-.col{
-    width: 33%;
+.col {
+    width: 50%;
     height: 20vh;
     float: left;
     padding: 15px;
     text-align: center;
 }
 
-#sign{
-    background: linear-gradient(rgba(150,0,0,1),rgba(150,0,0,.8));
-}
-#remove{
-    background: linear-gradient(rgba(0,0,150,1),rgba(0,0,150,.8));
-}
-#next{
-    background: linear-gradient(rgba(150,0,0,1),rgba(150,0,0,.8));
+#sign {
+    background: linear-gradient(rgba(150, 0, 0, 1), rgba(150, 0, 0, .8));
 }
 
-h2{
-    color:black;
+.remove {
+    width: 25%;
+    float: left;
+    margin-top: 12px;
 }
 
-p{
+#next {
+    background: linear-gradient(rgba(150, 0, 0, 1), rgba(150, 0, 0, .8));
+}
+
+h2 {
+    color: black;
+}
+
+p {
     margin: 0px;
-    padding:0px;
-    border:0px; 
+    padding: 0px;
+    border: 0px;
 }
 
-body{
+body {
     background-image: url("mario.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-button{
-    background-color: rgba(100,100,100,.8);
+button {
+    background-color: rgba(100, 100, 100, .8);
     border: none;
     color: white;
     padding: 8px 32px;
@@ -48,11 +53,21 @@ button{
     cursor: pointer;
 }
 
-#n{
+#n {
     border: 0px;
-    height:32px;
+    height: 32px;
     font-size: 16px;
 }
-hr{
-    margin-bottom:56px;
+
+hr {
+    margin-bottom: 56px;
+}
+
+#up {
+    background: rgba(100, 100, 100, .8);
+    color: white;
+}
+
+td {
+    text-align: center;
 }
